@@ -10,10 +10,6 @@ primary_region = 'lhr'
 [deploy]
   release_command = 'go version'
 
-[mounts]
-  source = "data"
-  destination = "/data"
-
 [env]
   LOG_LEVEL = "debug"
   RAILS_ENV = "production"
