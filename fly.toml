@@ -8,6 +8,11 @@ primary_region = 'lhr'
 
 [build]
 
+[env]
+  LOG_LEVEL = "debug"
+  RAILS_ENV = "production"
+  S3_BUCKET = "my-app-production"
+
 [http_service]
   internal_port = 8080
   force_https = true
