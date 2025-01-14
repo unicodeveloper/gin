@@ -2,11 +2,17 @@
 #
 # See https://fly.io/docs/reference/configuration/ for information about how to use this file.
 #
-
 app = 'gin'
 primary_region = 'lhr'
 
 [build]
+
+[deploy]
+  release_command = 'go version'
+
+[mounts]
+  source = "data"
+  destination = "/data"
 
 [env]
   LOG_LEVEL = "debug"
