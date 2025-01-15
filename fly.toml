@@ -7,10 +7,6 @@ primary_region = 'lhr'
 
 [build]
 
-[mounts]
-  source = "data"
-  destination = "/data"
-
 [deploy]
   release_command = 'go version'
 
