@@ -16,7 +16,6 @@ primary_region = 'lhr'
 
 [env]
   LOG_LEVEL = "debug"
-  RAILS_ENV = "production"
   S3_BUCKET = "my-app-production"
 
 [http_service]
